@@ -1,0 +1,25 @@
+/*
+Three kinds of styling:
+*/
+
+/* Tag style */
+body {
+  font-family: Arial;
+}
+
+h1 {
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px;
+}
+
+/* ID style */
+#home {
+  background-color: #000000;
+}
+
+/* Class style */
+.whiteText {
+  color: white;
+}
+/* What would happen if we applied the "whiteText" class to an <h1> tag? */

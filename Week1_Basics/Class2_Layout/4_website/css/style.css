@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    border: 1px solid #999;
+}
+
+li {
+    border: 1px solid #DDD;
+}
+
+ol {
+    border: 1px solid #333;
+}

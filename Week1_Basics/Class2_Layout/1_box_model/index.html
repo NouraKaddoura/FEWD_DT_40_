@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>The Box Model</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <h1>Box Model</h1>
+    <p>Every website is built from boxes. Each box can be styled using CSS.</p>
+    <p>The CSS box model is the foundation of layout on the Web — each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion. As a browser renders a web page layout, it works out what styles are applied to the content of each box, how big the surrounding onion layers are, and where the boxes sit in relation to one another. </p>
+    
+  <p>The width and height properties set the width and height of the content box, which includes the text inside the box and the boxes representing nested child elements</p>
+
+  <p>we can use min-width, max-width, min-height, max-height</p>
+
+  <p>Padding - is the inner margin of a css box (padding - padding-top, padding-bottom, padding-left)</p>
+
+  <p>Border - default border size is 0 (border: 1px solid black)</p>
+
+  <p>margin surrounds a CSS box and pushes up against other CSS boxes - similar to padding</p>
+
+    <p>From the outside in:</p>
+
+    <img src="http://learn.shayhowe.com/assets/images/courses/html-css/opening-the-box-model/box-model.png" />
+
+  <h2 id="marginFun">Margin of 20px</h2>
+  <h2 id="paddingFun">Padding of 20px</h2>
+  <h2 id="borderFun">Border of 6px</h2>
+
+  <div id="box">400 x 100</div>
+
+  <p class="green">Keep in mind that a <code>background</code> will cover the content and the padding.</p>
+
+
+
+  <h2 class="green">Together</h2>
+  <ol>
+    <li>Give the <code>h1</code> a red background, some padding, and a black border.</li>
+    <li>Give every <code>p</code> a blue background, white text, some padding, and a black border.</li>
+    <li>Give every <code>code</code> element a white background, black text, a little padding, and a thin border.</li>
+  </ol>
+
+
+
+  <h2>Now You Try</h2>
+  <ol>
+    <li>Try adding styles for the <code>h2</code>s, <code>ol</code>s, and <code>li</code>s on this page.</li>
+    <li>Look into the syntax for <code>margin</code> and try adding more space around elements by using them.</li>
+  </ol>
+
+  </body>
+
+</html>

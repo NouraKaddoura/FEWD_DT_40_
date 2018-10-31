@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>Floating Boxes</h1>
+    <h3>This is the story of two boxes that bump into each other on a webpage</h3>
+    
+    <!-- No Float -->
+    <div class="container">
+        <div class="box box1">Box #1</div>
+        <div class="box box2">Box #2</div>
+    </div>
+
+    <!-- Float Left -->
+    <h3>Box #2 is friendly and stands next to Box #1</h3>
+    <div class="container">
+        <div class="box box1 floatLeft">Box #1</div>
+        <div class="box box2 floatLeft">Box #2</div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Float Mixed -->
+    <h3>But Box #1 needs space. So Box #2 gives Box #1 some space...and time...</h3>
+    <div class="container">
+        <div class="box box1 floatLeft">Box #1</div>
+        <div class="box box2 floatRight">Box #2</div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Float Right -->
+    <h3>...and eventually Box #1 comes around</h3>
+    <div class="container">
+        <div class="box box1 floatRight">Box #1</div>
+        <div class="box box2 floatRight">Box #2</div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Float Mixed -->
+    <h3>Suddenly Box #2 gets hurt and decides it needs some space from Box #1</h3>
+    <div class="container">
+        <div class="box box1 floatRight">Box #1</div>
+        <div class="box box2 floatLeft">Box #2</div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Float Mixed, Double Clear-->
+    <h3>And sadly, Box #1 and Box #2 drift apart (and go on a bunch of Tinder & Bumble dates)</h3>
+    <div class="container">
+        <div class="box box1 floatLeft">Box #1</div>
+        <div class="clear"></div>
+        <div class="box box2 floatRight">Box #2</div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- No Float, Absolute Positioning -->
+    <h3>Until one day Box #1 and Box #2 wake up and realize they are absolutely made for each other.</h3>
+    <div class="container">
+        <div class="box box1 absolute">Box #1</div>
+        <div class="box box2 absolute">Box #2</div>
+    </div>
+    
+    <h1>The <i class="fa fa-heart fa-3x"></i> End</h1>
+
+  </body>
+</html>

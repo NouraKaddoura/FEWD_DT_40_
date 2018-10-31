@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Block vs. Inline</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- Block Tags -->
+    <div class="container">
+        <h1>Block tags create new lines</h1>
+        <h2>Another line</h2>
+        <div>And another line</div>
+        <div>
+            <p>
+                Even when nested
+                <div>Block tags create new lines</div>
+            </p>
+        </div>
+    </div>
+
+    <!-- Inline Tags -->
+    <div class="container">
+        <h1>Inline tags are all in the same line</h1>
+        <a href="#">
+            A link with a <span>span</span>
+            with an image <img src="http://placehold.it/100x20"/>
+            and some <code>code</code>
+        </a>
+    </div>
+
+    <div>Types of CSS Boxes: Block, Inline, Inline-block:
+    <ul>
+      <li>Block: a block box is a box that's stacked upon other boxes - It has a break between ther content. Starts on it's own line</li>
+      <li>Inline: an inline box is the opposite, it flows with the document's text. It will appear on the same line as other elements.</li>
+      <li>Inline-block: in between the first two. It can be sized using width and height. </li>
+    </ul>
+
+    <h3>For Example:<h3>
+      <p>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   <span class="inline">Mauris tempus turpis id ante mollis dignissim.</span>
+   Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+</p>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <span class="block">Mauris tempus turpis id ante mollis dignissim.</span>
+  Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+</p>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  <span class="inline-block">Mauris tempus turpis id ante mollis dignissim.</span>
+  Nam sed dolor non tortor lacinia lobortis id dapibus nunc.
+</p>
+
+   </div>
+  </body>
+</html>

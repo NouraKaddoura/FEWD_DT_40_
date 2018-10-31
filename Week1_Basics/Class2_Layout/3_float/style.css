@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+}
+h1 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+h3 {
+    margin-top: 100px;
+}
+.container {
+    margin: 8px;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    min-height: 232px;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.box1 {
+    text-align: left;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-left: 2px solid #DDD;
+    border-right: 2px solid #DDD;
+}
+.box2 {
+    text-align: right;
+    border-top: 2px solid #DDD;
+    border-bottom: 2px solid #DDD;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+.box1 i {
+    margin: 0 35px;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.absolute {
+    position: absolute;
+    float: all;
+}

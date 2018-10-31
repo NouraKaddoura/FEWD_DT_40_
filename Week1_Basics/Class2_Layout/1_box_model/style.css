@@ -1,0 +1,45 @@
+/*
+Three kinds of styling:
+*/
+
+/* Tag style */
+h1 {
+    border: 1px solid gray;
+}
+
+img {
+  width: 492px;
+}
+
+/* ID style */
+#marginFun {
+    margin: 20px;
+}
+
+#paddingFun {
+    padding: 20px;
+}
+
+#borderFun {
+    border: 6px solid gray;
+}
+
+#box {
+    border: 6px solid gray;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+/* Class style */
+.green {
+    color: green;
+}
+
+/* A style can be applied to multiple elements */
+div, h2, p,  li {
+  border: 1px solid gray;
+}
+

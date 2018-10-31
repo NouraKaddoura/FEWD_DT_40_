@@ -23,11 +23,14 @@
 
     <!-- Float Left -->
     <h3>Box #2 is friendly and stands next to Box #1</h3>
+    <!-- When we float left it places the boxes right next to each other. Float is a CSS positioning property. Images may be set into the page such that text wraps around them as needed. This is commonly and appropriately called "text wrap".-->
     <div class="container">
         <div class="box box1 floatLeft">Box #1</div>
         <div class="box box2 floatLeft">Box #2</div>
         <div class="clear"></div>
     </div>
+
+    <!-- ***you can also use inline style to clear floats. it would just be <div style="clear: both;"></div> *** -->
 
     <!-- Float Mixed -->
     <h3>But Box #1 needs space. So Box #2 gives Box #1 some space...and time...</h3>
@@ -71,5 +74,15 @@
     
     <h1>The <i class="fa fa-heart fa-3x"></i> End</h1>
 
+
+<div>
+    <h2>What is a Float?</h2>
+    <p> In web design, page elements with the CSS float property applied to them are just like the images in the print layout where the text flows around them. Floated elements remain a part of the flow of the web page. This is distinctly different than page elements that use absolute positioning. Absolutely positioned page elements are removed from the flow of the webpage, like when the text box in the print layout was told to ignore the page wrap. Absolutely positioned page elements will not affect the position of other elements and other elements will not affect them, whether they touch each other or not.</p>
+    <p>There are four valid values for the float property. Left and Right float elements those directions respectively. None (the default) ensures the element will not float and Inherit which will assume the float value from that elements parent element.</p>
+    <p>Aside from the simple example of wrapping text around images, floats can be used to create entire web layouts.</p>
+    <h3>Clearing the Float</h3>
+    <p>Float's sister property is clear. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float. </p>
+    <p>The Empty Div Method is,literally, an empty div.Sometimes you'll see a br element or some other random element used, but div is the most common because it has no browser default styling, doesn't have any special function, and is unlikely to be generically styled with CSS. </p>
+</div> 
   </body>
 </html>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+}
+header, footer, .box, .centerbox {
+    background-color: #CCC;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+}
+nav {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.centerbox{
+    width: 60%;
+    height: 200px;
+    float:left;
+}
+.box{
+    width: 18%;
+    height: 200px;
+    float:left;
+}
+.clearFloat {
+    clear: both;
+}

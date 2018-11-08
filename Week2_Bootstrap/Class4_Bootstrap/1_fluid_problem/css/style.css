@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #DDD;
+    border: 1px solid red;
+    margin: 0;
+    height: 100%;
+}
+.box {
+	background-color: #FFF;
+	color: black;
+	border: 1px solid black;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.clearFloat {
+	clear: both;
+}

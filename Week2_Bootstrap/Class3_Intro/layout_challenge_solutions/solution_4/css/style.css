@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+}
+footer, .box, .centerbox, .bigbox{
+    background-color: #CCC;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.headerbox{
+    float:left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 100px;
+    background-color: #CCC;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 30px;
+    overflow: hidden;
+
+    
+}
+
+li {
+    float: left;
+    padding: 5 px;
+    background-color: #CCC;
+    height: 60px;
+    width: 24%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: 10px solid white;
+    text-decoration: none;
+}
+
+
+.bigbox{
+    width:99%;
+    height:300px;
+}
+.box{
+    width: 32%;
+    height: 200px;
+    float:left;
+}
+.clearFloat {
+    clear: both;
+}
+
+footer{
+    height: 80px;
+}

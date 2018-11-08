@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+}
+header, footer, .container {
+  background-color: #CCC;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+}
+nav, .box {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+.clearFloat {
+  clear: both;
+}

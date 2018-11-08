@@ -1,0 +1,18 @@
+div {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.row, .container-full {
+    border: none;
+}
+
+/*
+.box {
+    border: 2px solid gray;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+}
+*/

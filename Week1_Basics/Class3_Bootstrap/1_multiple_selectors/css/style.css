@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+
+#notification {
+	background-color: blue;
+	color: white;
+	padding: 8px;
+}
+
+.message {
+	background-color: green;
+	border: 3px solid grey;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.warning {
+	background-color: yellow;
+	color: black;
+}
+
+.alert {
+	background-color: red;
+}
+
+.success {
+	background-color: green;

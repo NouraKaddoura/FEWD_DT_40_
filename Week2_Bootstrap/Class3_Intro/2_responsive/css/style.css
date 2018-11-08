@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  padding: 8px;
+  padding-bottom: 200px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  padding: 80px;
+}
+
+/* Fixed Design */
+#desktop {
+  margin: 8px auto;
+  width: 1024px;
+}
+#desktop h2, #mobile h2 {
+  font-size: 30px;
+}
+#mobile {
+  width: 480px;
+  margin: 8px auto;
+}
+
+/* Responsive Design */
+#fluid {
+  margin: 2% auto;
+  width: 80%;
+}
+#fluid h2 {
+  font-size: 200%;
+}
+
+.box, .fixed-box, .fluid-box { /* assigns borders to all of the elements */
+  border: 1px solid black;
+  text-align: center;
+  background-color: #EEE;
+  border-radius: 8px;
+}
+
+.fixed-box {
+    width: 330px;
+    height: 200px;
+    float: left;
+}
+
+.fluid-box {
+    width: 33%;
+    height: 200px;
+    float:left;
+}
+
+.clear {
+    clear: both;
+}

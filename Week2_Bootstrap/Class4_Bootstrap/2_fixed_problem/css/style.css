@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #DDD;
+    border: 1px solid red;
+    margin: 0;
+    height: 100%;
+}
+.box {
+	background-color: #FFF;
+	color: black;
+	border: 1px solid black;
+    float: left;
+    height: 300px;
+}
+.clearFloat {
+	clear: both;
+}
+
+.box {
+    width: 350px;
+}
+.wide {
+    width: 700px;
+}

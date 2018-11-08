@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Multiple Selectors</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="container">
+            <div class="abtBootstrap">This is the link to download the bootstrap CDN: https://getbootstrap.com/docs/3.3/getting-started/</div>
+            <div>https://getbootstrap.com/docs/3.3/getting-started/#examples</div>
+
+            <div>Quick intro video: https://www.youtube.com/watch?v=yalxT0PEx8c </div>
+
+        <h1>Advanced Classes and IDs</h1>
+
+        <div id="notification">
+            This has an <code>id="notification"</code>, so it is styled in CSS with <code>#notification</code>. Check it out.
+        </div>
+
+        <p>What if we have many messages on the page which are meant to look similar?</p>
+
+        <div class="message success">
+            This is a div with a class of <code>message</code>, so it can be styled in CSS with <code>.message</code>.
+        </div>
+
+        <div class="message warning">
+            This is another div with a class of <code>message</code>, so it gets styled too.
+        </div>
+
+        <div class="message alert">
+            A third element with a class of <code>message</code>, for good measure. One CSS selector styles all of these.
+        </div>
+
+        <h3>IDs are singular, Classes are plural</h3>
+        <p>
+            An ID is meant to be used only once in a given HTML document. A given element can have only one ID.
+        </p>
+        <p>
+            A class can be reused as many times as needed in a given HTML document. A given element can have multiple classes.
+        </p>
+
+        <h3>Using Multiple Classes</h3>
+        <p>
+            An element can be given multiple classes, separated by spaces, such as <code>class="message success"</code>.
+        </p>
+
+        <div>
+            This has <code>class="message error"</code>, meaning it has two classes: <code>message</code> and <code>error</code>. It will get styles from <code>.message</code> and <code>.error</code>. The styles for <code>.error</code> override the default styles, which we achieve by placing them after the styles for <code>.message</code>.
+        </div>
+
+    </div><!-- Close the container -->
+
+    <div class="container">
+        <h1>A couple of Bootstrap classes</h1>
+
+        <div class="alert alert-success">
+            This is a div with a class of <code>message</code>, so it can be styled in CSS with <code>.message</code>.
+        </div>
+
+        <div class="alert alert-warning">
+            This is another div with a class of <code>message</code>, so it gets styled too.
+        </div>
+
+       <strong>Can you create a div and style it with "alert-danger?"</strong>
+
+        <!-- Can you create a <div> and style it with "alert-danger" Then add some custom css-->
+    </div><!-- Close the container -->
+
+</body>
+
+</html>

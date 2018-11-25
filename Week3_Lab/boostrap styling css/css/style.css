@@ -1,0 +1,22 @@
+/* Here I changed the navbars background color to #FFAD9C
+*/
+.navbar{
+	background: #FFAD9C;
+	color: black;
+}
+
+.decor {
+	background: #FFAD9C;
+}
+/* Here I resize and image in a column */
+.landscape{
+	height: 100px;
+	float:left;
+	padding: 10px;
+
+
+}
+
+.clear{
+	clear:both;
+}

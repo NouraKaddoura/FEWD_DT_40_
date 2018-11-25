@@ -1,0 +1,97 @@
+<!--Bootstrap explained -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+
+	<title>The responsive Bootstrap grid</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+	<div class="container"> <!--gives you spaces on the side -->
+		<div class="row"> <!--now add some columns-->
+			<div class="col-lg-1 col-xs-4 bg-warning"> <!--col for colum, but use columns for breakpoints, large screen "lg" "1" means we are creating a large column at a large screen displays 1 column width, give it a second class bg-warning, that adds a background color-->
+			1
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-info">  <!--visually representation of columns --> 2
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-danger"> 
+				3
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-success"> <!--now copy those-->
+			 4
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-warning"> 
+				5
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-info">
+			6  
+			</div>
+			<div class="col-lg-1 col-xs-4 bg-danger"> 
+			7
+			</div>
+			<div class="col-lg-1 col-xs-4 bg-success"> 
+				8
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-warning"> 
+				9
+			</div>
+
+			<div class="col-lg-1 col-xs-4 bg-info">
+			10  
+			</div>
+			<div class="col-lg-1 col-xs-4 bg-danger"> 
+			11
+			</div>
+			<div class="col-lg-1 col-xs-4 bg-success"> 
+			12
+			</div>
+				<!-- What happens if we add another column? starts stacking - default bootstrap behavior - it stacks-->
+		<!-- responsive design when you shrink, one below another, 1200px is our large breakpoint - considered a large screen, scaled down to anything below - it's a medium width screen - so we need a medium width breakpoint or smaller 12/4 is 3 that's why we have 3 columns. bootstrap works from the smallest screen up - add col-md-2 to display -->
+
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-6 bg-success">
+					<!-- 12 column grid - full width -->
+					<p>This is an outer div</p>
+					<div class="col-lg-6 col-md-6 bg-primary">
+					<!-- this takes up half -->
+						<p>This is an inner div</p>
+					</div>
+					<!-- what happens if you make the parent the same size? change -12 to -6 parent div shrinks and the child div shrinks, when you nest they shrink. child column must take up a certain amount of columns of it's parent. Add a row to remove spacing. add a breakpoint fof mid screen, whatever class the parent has the child has to have as well-->
+				</div>
+			</div>
+		</div>
+
+<nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+	</div>
+
+</body>
+</html>

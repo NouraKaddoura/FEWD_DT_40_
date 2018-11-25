@@ -1,0 +1,78 @@
+.body{
+	font-family: 'Signika', sans-serif;
+}
+
+.btn-primary {
+	background-color:darkblue !important;
+	border:none !important;
+	border-radius: 40px !important;
+	font-family: 'Signika', sans-serif;
+	margin: 20px;
+}
+
+.btn-success{
+	border-radius: 40px !important;
+}
+.btnDiv2{
+
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.btnTxt2{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+img {
+display: block;
+margin: 0 auto;
+}
+.btnDiv{
+
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.btnTxt{
+	padding: 30px;
+}
+
+.logo{
+	width: 200px;
+}
+.sign{
+	text-align:center;
+}
+
+h6 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h6:before,
+h6:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h6:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h6:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.form-check-label{
+	padding: 5px;
+}

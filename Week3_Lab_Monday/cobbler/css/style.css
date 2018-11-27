@@ -1,0 +1,35 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @You in DTLA
+*/
+
+body {
+    font-family: Arial;
+}
+
+header,footer {
+    height: 80px;
+    background-color: gray;
+    padding: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+#home img {
+    max-height: 400px;
+    display: block;
+}
+#about {
+    background-color: #EEE;
+}
+.container, .container-full {
+    min-height: 400px;
+}
+.well {
+    margin-top: 20px;
+}

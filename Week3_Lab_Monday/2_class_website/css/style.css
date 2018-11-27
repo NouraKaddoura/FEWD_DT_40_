@@ -1,0 +1,21 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @You in DTLA
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    color: #FF8A23;
+}
+#home, #mission {
+    background-color: #3A3A3A;
+}
+
+#about, #team {
+    background-color: #EFEFEF;    
+}
+
